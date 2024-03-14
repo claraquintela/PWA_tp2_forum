@@ -1,0 +1,246 @@
+
+html, body {
+ margin: 0;
+ padding: 0;
+}
+
+body {
+    background-color: #f6f6f5;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #ff6145;
+}
+header{
+    display: flex;
+    flex-direction: column;
+  
+    margin: 4rem;
+   
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-salutation {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.logo {
+    max-width: 17rem;
+}  
+
+.footer_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6145;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    bottom: 0;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    margin: 4rem;
+}
+
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 10px; 
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.6rem;
+  }
+
+.logo {
+    border-radius: 100%;
+    width: 18rem;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 1rem;
+    max-width: fit-content;
+}
+
+td,th {
+    padding: 1rem;
+    border: 1px dotted black;
+   
+}
+
+input{
+    margin: 1rem;;
+}
+
+.form_form {
+    width: 70rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted #ff6145;
+    border-radius: 1rem;
+    
+}
+
+.form_btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
+.div-btn {
+    display: flex;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 1rem;
+color: #fff;
+width: auto;
+margin: 1.5rem;
+background: linear-gradient(90deg, #e68609 0%, #d6c05d 100%);
+padding: 1rem;
+border: 2px solid #da6bc9;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 1rem;
+transition : 1000ms;
+transform: translateY(0);
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+
+transition : 1000ms;
+transform : translateY(-0px);
+background: linear-gradient(90deg, #0066CC 0%, #c500cc 100%);
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+button {
+    padding: 1rem;
+}
+
+.post-show{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted #ff6145;
+    border-radius: 1rem;
+    width: 70rem;
+}
+
+.post-card{
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+    border: 1px dotted #ff6145;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.post-title, .post-post, .post-author, .post-date {
+    margin: 1rem;
+}
+
+/* Post create*/
+
+.form-post{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border: 1px dotted #ff6145;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 2rem;
+    align-items: self-start;
+    justify-content: flex-start;
+
+}
+
+.textarea-post {
+    width: 40rem;
+    height: 30rem;
+    margin-left: 1rem;
+}
+
+/* Post show*/
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50rem;
+    border: 1px dotted rgb(234, 103, 177);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.post-photo_container{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.post_photo{
+    max-width: 25rem;
+}
+
+/*login*/
+.login-form, .user-create-form{
+    width: 70rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted #ff6145;
+    border-radius: 1rem;
+    width: 30rem;
+}
+
